@@ -1,0 +1,28 @@
+.preFooterIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.preFooterIn div{
+    width: 50%;
+}
+
+.texBox{
+    padding: 5rem;
+}
+
+.texBox h2{
+    font-size: 4rem;
+    color: #00A85A;
+    margin-bottom: .5rem;
+}
+
+.texBox p{
+    color: #163828;
+    font-weight: 700;
+    font-size: 2rem;;
+    width: 70%;
+}
+

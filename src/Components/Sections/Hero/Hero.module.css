@@ -1,0 +1,27 @@
+.heroCon{
+    padding: 5rem 0;
+}
+.heroTopSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.heroTextCon{
+    width: 60%;
+    padding: 5rem;
+}
+
+.heroTextCon h2{
+    font-size: 3rem;
+    line-height: 150%;
+}
+
+.heroImgCon{
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
+-webkit-box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
+-moz-box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
+}
