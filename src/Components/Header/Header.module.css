@@ -1,0 +1,31 @@
+.headerCon{
+    padding: 1rem 0;
+    box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.33);
+-webkit-box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 10px 8px -4px rgba(0,0,0,0.33);
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNavCon{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerNavCon nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.nav > a{
+    font-weight: 700;
+    color: #163828;
+    text-decoration: none;
+}

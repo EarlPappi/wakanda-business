@@ -1,7 +1,13 @@
+import Footer from "./Components/Footer/Footer";
+import Home from "./Components/Home";
+import Hero from "./Components/Sections/Hero/Hero";
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Home/>
+      <Hero/>
+      <Footer/>
     </div>
   )
 }
