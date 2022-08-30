@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="145" viewBox="0 0 373 145">
+  <defs>
+    <filter id="Rectangle_193" x="0" y="0" width="373" height="145" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#18a75d" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_6_6" data-name="Component 6 – 6" transform="translate(37.5 22.5)">
+    <g transform="matrix(1, 0, 0, 1, -37.5, -22.5)" filter="url(#Rectangle_193)">
+      <rect id="Rectangle_193-2" data-name="Rectangle 193" width="298" height="70" rx="20" transform="translate(37.5 22.5)" fill="#fff"/>
+    </g>
+    <g id="Feed_Button" data-name="Feed Button" transform="translate(100.999 22)">
+      <g id="Group_6" data-name="Group 6">
+        <text id="CUSTOMERS" transform="translate(-15.999 21)" fill="#648b7a" font-size="22" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">Customers</tspan></text>
+      </g>
+    </g>
+    <g id="Communities" transform="translate(32 22)">
+      <path id="FontAwsome_users_" data-name="FontAwsome (users)" d="M5.42,42.841a3.614,3.614,0,1,0-3.614-3.614A3.617,3.617,0,0,0,5.42,42.841Zm25.3,0A3.614,3.614,0,1,0,27.1,39.227,3.617,3.617,0,0,0,30.716,42.841Zm1.807,1.807H28.909a3.6,3.6,0,0,0-2.547,1.05,8.259,8.259,0,0,1,4.24,6.177H34.33a1.8,1.8,0,0,0,1.807-1.807V48.261A3.617,3.617,0,0,0,32.523,44.648Zm-14.455,0a6.324,6.324,0,1,0-6.324-6.324A6.321,6.321,0,0,0,18.068,44.648ZM22.4,46.455h-.469a8.731,8.731,0,0,1-7.735,0h-.469a6.506,6.506,0,0,0-6.5,6.5v1.626a2.711,2.711,0,0,0,2.71,2.71H26.2a2.711,2.711,0,0,0,2.71-2.71V52.959A6.506,6.506,0,0,0,22.4,46.455ZM9.774,45.7a3.6,3.6,0,0,0-2.547-1.05H3.614A3.617,3.617,0,0,0,0,48.261v1.807a1.8,1.8,0,0,0,1.807,1.807H5.528A8.28,8.28,0,0,1,9.774,45.7Z" transform="translate(0 -32)" fill="#648b7a"/>
+    </g>
+  </g>
+</svg>
