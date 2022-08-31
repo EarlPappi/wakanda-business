@@ -28,6 +28,10 @@
     justify-content: space-between;
 }
 
+.altCol{
+    flex-direction: row-reverse;
+}
+
 .featureT1{
     width: 40%;
 }
@@ -36,31 +40,36 @@
     width: 60%;
 }
 
+.featuresUnit div{
+    width: 70%;
+}
+
 .unitCon{
-    width: 30%;
+    width: 15% !important;
 }
 
 .headingFeat{
     color: #00A85A;
     text-decoration: underline #A9D046;
     text-underline-offset: 0.5rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .featuresUnit{
     padding: 2rem 0;
     display: flex;
-    gap: 0.5rem;
     align-items: flex-start;
 }
 
 .featuresUnit h3{
     font-size: 1.2rem;
     line-height: 150%;
+    color: #163828;
 }
 
 .featuresUnit p{
     line-height: 200%;
     font-weight: 500;
     font-size: .8rem;
+    color: #163828;
 }
