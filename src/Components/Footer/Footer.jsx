@@ -6,6 +6,9 @@ import mail from "../../Assets/mail-outline.svg";
 import phone from "../../Assets/phone.svg";
 import appStore from "../../Assets/GET IT ON APPSTORE.png";
 import playStore from "../../Assets/Get it On googlePlay.png";
+import twitter from "../../Assets/Twitter.svg";
+import instagram from "../../Assets/Instgram.svg";
+import facebook from "../../Assets/Facebook.svg";
 
 const Footer = () => {
     return (
@@ -57,6 +60,12 @@ const Footer = () => {
                             <div className={`${classes.flexHalt}`}>
                                 <img src={phone} alt="" />
                                 <p>08064289402</p>
+                            </div>
+
+                            <div className={`${classes.flexHalt}`}>
+                                <img src={facebook} alt="" width="5%"/>
+                                <img src={instagram} alt="" width="5%"/>
+                                <img src={twitter} alt="" width="5%"/>
                             </div>
 
 

@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className={ classes.heroTextCon }>
                         <h2>Organise Your Sales. Build Great Relationships. Save Time.</h2>
 
-                        <Button>Get Started</Button>
+                        <Button color="white" bgColor="#00A85A" fontWeight="bold">Get Started now</Button>
                     </div>
 
                     <div className={ classes.heroImgCon }>

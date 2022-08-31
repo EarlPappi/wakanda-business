@@ -19,8 +19,8 @@ const Header = () => {
                         </nav>
 
                         <nav>
-                            <Button>Login</Button>
-                            <Button>Get Started</Button>
+                            <Button color="#648B7A" bgColor="white" fontWeight="600" border="2px solid #00A85A">Login</Button>
+                            <Button color="white" bgColor="#00A85A" fontWeight="600">Get Started now</Button>
                             
                         </nav>
 

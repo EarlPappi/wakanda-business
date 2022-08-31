@@ -104,7 +104,7 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <Button>Get Started now</Button>
+                        <Button color="white" bgColor="#00A85A" fontWeight="bold">Get Started now</Button>
 
                     </div>
                     {/* Business customer Management ends */}
@@ -178,7 +178,7 @@ const Features = () => {
                         </div>
 
 
-                        <Button>Get Started</Button>
+                        <Button color="white" bgColor="#00A85A" fontWeight="bold">Get Started now </Button>
 
 
 
@@ -225,7 +225,7 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <Button>Get Started now</Button>
+                        <Button color="white" bgColor="#00A85A" fontWeight="bold">Get Started now</Button>
 
 
                     </div>
@@ -233,7 +233,7 @@ const Features = () => {
 
 
 
-                    <div className={classes.featureT2}>
+                    <div className={`${classes.featureT2} ${classes.altPad}`}>
                         <img src={sideImg3} alt="" width="100%" />
                     </div>
                 </div>
