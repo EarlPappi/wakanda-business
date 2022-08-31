@@ -1,28 +1,61 @@
-.preFooterIn{
+.preFooterIn {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 4rem 0;
 }
 
-.preFooterIn div{
-    width: 50%;
+@media (min-width: 767px) {
+    .preFooterIn {
+        flex-direction: row;
+        align-items: center;
+        padding: 4rem 0;
+    }
 }
 
-.texBox{
-    padding: 5rem;
+
+
+@media (min-width: 767px) {
+    .preFooterIn div {
+        width: 50%;
+    }
 }
 
-.texBox h2{
-    font-size: 4rem;
+.texBox {
+    text-align: center;
+}
+
+@media (min-width: 767px) {
+    .texBox {
+        padding: 5rem;
+        text-align: left;
+    }
+}
+
+.texBox h2 {
+    font-size: 2rem;
     color: #00A85A;
     margin-bottom: .5rem;
+    margin-top: 2rem;
 }
 
-.texBox p{
+@media (min-width: 767px) {
+    .texBox h2 {
+        font-size: 4rem;
+        margin-top: 0;
+    }
+}
+
+.texBox p {
     color: #163828;
     font-weight: 700;
-    font-size: 2rem;;
-    width: 70%;
+    font-size: 1.2rem;
 }
 
+@media (min-width: 767px) {
+    .texBox p {
+        font-size: 2rem;
+        width: 70%;
+    }
+}
