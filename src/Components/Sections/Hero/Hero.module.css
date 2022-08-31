@@ -1,59 +1,115 @@
-.heroCon{
+.heroCon {
     padding: 5rem 0;
 }
-.heroTopSection{
+
+.heroTopSection {
+    flex-direction: column-reverse;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.heroTextCon{
-    width: 60%;
-    padding: 5rem;
+
+@media (min-width: 767px) {
+    .heroTopSection {
+        flex-direction: row;
+    }
 }
 
-.heroTextCon h2{
-    font-size: 3rem;
+.heroTextCon {
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 767px) {
+    .heroTextCon {
+        width: 60%;
+        text-align: left;
+        padding: 5rem;
+    }
+}
+
+.heroTextCon h2 {
+    font-size: 1.3rem;
     line-height: 150%;
     color: #163828;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.heroImgCon{
+@media (min-width: 767px) {
+    .heroTextCon h2 {
+        font-size: 3rem;
+    }
+}
+
+.heroImgCon {
     width: 40%;
     border-radius: 20px;
-    box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
--webkit-box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
--moz-box-shadow: 31px 32px 0px 0px rgba(169,208,70,0.75);
+    box-shadow: 31px 32px 0px 0px rgba(169, 208, 70, 0.75);
+    -webkit-box-shadow: 31px 32px 0px 0px rgba(169, 208, 70, 0.75);
+    -moz-box-shadow: 31px 32px 0px 0px rgba(169, 208, 70, 0.75);
 }
 
-.miniHeader{
-    margin-top: 5rem;
+
+
+.miniHeader {
+    margin-top: 3rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #163828;
 }
 
-.heroIcon{
-    display: flex;
-    gap: 5rem;
-    justify-content: space-around;
-    padding: 3rem 0;
+@media (min-width:767px) {
+    .miniHeader {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
 }
 
-.heroIconIn{
+.heroIcon {
+    display: flex;
+    padding: 3rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (min-width:767px) {
+    .heroIcon {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        justify-content: space-around;
+    }
+}
+
+.heroIconIn {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 33%;
+    width: 80%;
 }
 
-.heroIconIn p{
+@media (min-width:767px) {
+    .heroIconIn {
+        width: 33%;
+    }
+}
+
+.heroIconIn p {
     width: 90%;
     margin: 0 auto;
     font-weight: 700;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+@media (min-width:767px) {
+    .heroIconIn p {
+        font-size: 1.2rem;
+    }
 }
