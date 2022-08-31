@@ -52,6 +52,12 @@
     -moz-box-shadow: 31px 32px 0px 0px rgba(169, 208, 70, 0.75);
 }
 
+@media (min-width: 737px) {
+    .heroImgCon{
+        width: 80%;
+    }
+}
+
 
 
 .miniHeader {
