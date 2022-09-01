@@ -20,13 +20,13 @@ const Footer = () => {
                         <p>Enjoy alot more awesome features on the Wakanda Mobile App</p>
                     </div>
 
-                    <div>
-                        <div >
-                            <img src={appStore} alt="" />
+                    <div className={`${classes.flexV}`}>
+                        <div className={classes.store}>
+                            <img src={appStore} alt="" width="100%" />
                         </div>
-                        
-                        <div >
-                            <img src={playStore} alt="" />
+
+                        <div className={classes.store}>
+                            <img src={playStore} alt="" width="100%" />
                         </div>
                     </div>
 
@@ -34,7 +34,11 @@ const Footer = () => {
 
 
                 <div className={`${classes.footerInner} ${classes.flexH}`}>
-                    <img src={logo} alt="" />
+
+                    <div className={ classes.footerIcoone }>
+                        <img src={logo} alt="" width="100%" />
+
+                    </div>
 
                     <nav className={`${classes.flexV}`}>
                         <h3>Links</h3>
@@ -63,9 +67,9 @@ const Footer = () => {
                             </div>
 
                             <div className={`${classes.flexHalt}`}>
-                                <img src={facebook} alt="" width="5%"/>
-                                <img src={instagram} alt="" width="5%"/>
-                                <img src={twitter} alt="" width="5%"/>
+                                <img src={facebook} alt="" width="5%" />
+                                <img src={instagram} alt="" width="5%" />
+                                <img src={twitter} alt="" width="5%" />
                             </div>
 
 
