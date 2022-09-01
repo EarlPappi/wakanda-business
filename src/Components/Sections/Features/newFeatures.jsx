@@ -83,7 +83,7 @@ const NewFeatures = () => {
         <div className={classes.featuresCon}>
             <Wrapper>
                 <div>
-                    <h2 className={`${classes.headingH2}`}>Features</h2>
+                    <h2 className={`${classes.headingH2}`}>FEATURES</h2>
 
                     <h2 className={`${classes.headingTitle}`}>
                         Wakanda CRM is Built to Bridge the Gap between your Business and Customers, Management and Staff.
@@ -124,7 +124,7 @@ const NewFeatures = () => {
 
                     </div>
 
-                    <div className={classes.featureT2}>
+                    <div className={`${classes.featureT2} ${classes.moveIt}`}>
                         <img src={sideImg} alt="" width="100%" />
                     </div>
                 </div>
@@ -166,7 +166,7 @@ const NewFeatures = () => {
                     </div>
 
 
-                    <div className={classes.featureT2}>
+                    <div className={`${classes.featureT2} ${classes.moveItL}`}>
                         <img src={sideImg2} alt="" width="100%" />
                     </div>
                 </div>
