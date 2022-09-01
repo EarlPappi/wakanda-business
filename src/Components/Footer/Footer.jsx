@@ -22,11 +22,11 @@ const Footer = () => {
 
                     <div className={`${classes.flexV}`}>
                         <div className={classes.store}>
-                            <img src={appStore} alt="" width="100%" />
+                            <img src={appStore} alt="" width="80%" />
                         </div>
 
                         <div className={classes.store}>
-                            <img src={playStore} alt="" width="100%" />
+                            <img src={playStore} alt="" width="80%" />
                         </div>
                     </div>
 

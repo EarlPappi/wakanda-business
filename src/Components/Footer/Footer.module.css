@@ -44,7 +44,7 @@ footer {
 .footerOut {
     width: 90%;
     margin: 0 auto;
-    background-color: #A9D046;
+    background-color: #C1DE76;
     border-radius: 20px;
     padding: 3rem;
     position: relative;
@@ -59,7 +59,6 @@ footer {
     .footerOut {
         width: 70%;
         margin: 0 auto;
-        background-color: #A9D046;
         border-radius: 20px;
         padding: 3rem;
         position: relative;
@@ -79,7 +78,7 @@ footer {
 
 @media (min-width:767px) {
     .footerOut h2{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 }
 
@@ -93,8 +92,8 @@ footer {
 
 @media (min-width:767px) {
     .footerOut p{
-        font-size: 1.25rem;
-        text-align: left;
+        font-size: 1rem;
+        text-align: center;
         font-weight: 700;
     } 
 }
