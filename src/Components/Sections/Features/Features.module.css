@@ -1,9 +1,9 @@
-.featuresCon{
+.featuresCon {
     background-color: #EFF7F0;
     padding: 3rem 0;
 }
 
-.headingH2{
+.headingH2 {
     font-weight: 700;
     color: #163828;
     text-align: center;
@@ -11,10 +11,9 @@
     text-underline-offset: 0.7rem;
 }
 
-.headingTitle{
+.headingTitle {
     padding-top: 2rem;
     font-weight: 500;
-    width: 80%;
     margin: 0 auto;
     font-size: 1.2rem;
     text-align: center;
@@ -23,12 +22,13 @@
 }
 
 @media (min-width:767px) {
-    .headingTitle{
-        font-size: 2rem;;
+    .headingTitle {
+        font-size: 2rem;
+        width: 80%;
     }
 }
 
-.featuresTab1{
+.featuresTab1 {
     padding: 2em 0;
     display: flex;
     justify-content: space-between;
@@ -37,19 +37,19 @@
 }
 
 @media (min-width:767px) {
-    .featuresTab1{
+    .featuresTab1 {
         padding: 4em 0;
         flex-direction: row;
         gap: 0;
     }
 }
 
-.altCol{
+.altCol {
     flex-direction: column
 }
 
 @media (min-width:767px) {
-    .altCol{
+    .altCol {
         flex-direction: row-reverse;
     }
 }
@@ -59,57 +59,58 @@
 
 
 @media (min-width:767px) {
-    .featureT1{
-    width: 40%;
+    .featureT1 {
+        width: 40%;
+    }
+
+    .featureT2 {
+        width: 60%;
+    }
+
+    .featuresUnit div {
+        width: 70%;
+    }
+
+    .unitCon {
+        width: 15% !important;
+    }
 }
 
- .featureT2{
-    width: 60%;
-}
-
-.featuresUnit div{
-    width: 70%;
-}
-
-.unitCon{
-    width: 15% !important;
-}
-}
 
 
 
 
 
 
-
-.headingFeat{
+.headingFeat {
     color: #00A85A;
     text-decoration: underline #A9D046;
     font-size: 1.2rem;
     padding: 1rem 0;
-    text-underline-offset: 0.5rem;
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: .35rem;
     /* text-align: center; */
 }
 
 @media (min-width:737px) {
-    .headingFeat{
-        font-size: 2rem;
+    .headingFeat {
+        font-size: 1.5rem;
     }
 }
 
-.featuresUnit{
+.featuresUnit {
     padding: 2rem 0;
     display: flex;
     align-items: flex-start;
 }
 
-.featuresUnit h3{
+.featuresUnit h3 {
     font-size: 1.2rem;
     line-height: 150%;
     color: #163828;
 }
 
-.featuresUnit p{
+.featuresUnit p {
     line-height: 200%;
     font-weight: 600;
     font-size: .8rem;
@@ -119,7 +120,7 @@
 
 
 @media (min-width:767px) {
-    .altPad{
-    padding:0rem 8rem 8rem;
-}
+    .altPad {
+        padding: 0rem 8rem 8rem;
+    }
 }

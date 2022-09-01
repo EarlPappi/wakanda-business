@@ -27,17 +27,17 @@ const Hero = () => {
 
                 <div className={ classes.heroIcon }>
                     <div className={classes.heroIconIn}>
-                        <div><img src={ global } alt="" /></div>
+                        <div><img src={ global } alt="" width="50%"/></div>
                         <p>Build deeper connections with your customers with ease.</p>
                     </div>
 
                     <div className={classes.heroIconIn}>
-                        <div><img src={ sales } alt="" /></div>
+                        <div><img src={ sales } alt="" width="50%"/></div>
                         <p>Manage your sales process.</p>
                     </div>
 
                     <div className={classes.heroIconIn}>
-                        <div><img src={ email } alt="" /></div>
+                        <div><img src={ email } alt="" width="50%"/></div>
                         <p>Automate your everyday task and save time..</p>
                     </div>
 

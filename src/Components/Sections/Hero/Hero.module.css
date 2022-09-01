@@ -86,6 +86,10 @@
     gap: 2rem;
 }
 
+.heroIcon div{
+    text-align: center;
+}
+
 @media (min-width:767px) {
     .heroIcon {
         display: flex;
