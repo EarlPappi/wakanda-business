@@ -42,7 +42,7 @@ footer {
 }
 
 .footerOut {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     background-color: #A9D046;
     border-radius: 20px;
@@ -55,14 +55,36 @@ footer {
 -moz-box-shadow: 2px 51px 63px 4px #AACE5099;
 }
 
+@media (min-width: 767px) {
+    .footerOut {
+        width: 70%;
+        margin: 0 auto;
+        background-color: #A9D046;
+        border-radius: 20px;
+        padding: 3rem;
+        position: relative;
+        top: -8rem;
+        align-items: center;
+        box-shadow: 2px 51px 63px 4px #AACE5099;
+    -webkit-box-shadow: 2px 51px 63px 4px #AACE5099;
+    -moz-box-shadow: 2px 51px 63px 4px #AACE5099;
+    }
+}
+
 .footerOut h2{
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #163828;
 }
 
+@media (min-width:767px) {
+    .footerOut h2{
+        font-size: 3.5rem;
+    }
+}
+
 .footerOut p{
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #333333;
     font-weight: 700;
 }
